@@ -1,17 +1,15 @@
-a = 2
-b = 2
-c = 2
-x = 100
-count = 0
+n = 7
+a = [50, 30, 50, 100, 50, 80, 30]
 
-for i in range(a+1):
-  for j in range(b+1):
-    for k in range(c+1):
-      if i*500 + j*100 + k*50 == x:
-        count+=1
+list = sorted(a, reverse=True)
+count = 0
+before_num = 0
+for i,  num in enumerate(list):
+    if i == 0:
+        count += 1
+    if before_num > num:
+        count += 1
+    before_num = num
+
 
 print(count)
-
-
-for ddd in range(3):
-    print(ddd)
