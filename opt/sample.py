@@ -1,6 +1,6 @@
+a = str(101)
 
-a = int(input())
-b, c = map(int, input().split())
-s = input()
+print(a)
 
-print(f"{a + b + c} {s}")
+for num in a:
+    print(num)
