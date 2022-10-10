@@ -1,6 +1,17 @@
-a = str(101)
+a = 2
+b = 2
+c = 2
+x = 100
+count = 0
 
-print(a)
+for i in range(a+1):
+  for j in range(b+1):
+    for k in range(c+1):
+      if i*500 + j*100 + k*50 == x:
+        count+=1
 
-for num in a:
-    print(num)
+print(count)
+
+
+for ddd in range(3):
+    print(ddd)
