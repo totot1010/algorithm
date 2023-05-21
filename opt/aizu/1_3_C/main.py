@@ -7,4 +7,4 @@ while True:
         a = b
         b = tmp
 
-    print(f"{a} {b}")
+    print(f"{a} {b}"%(a,b))
